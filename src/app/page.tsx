@@ -1,7 +1,7 @@
+import Image from "next/image";
 import { WaitlistForm } from "@/components/waitlist-form";
 import { RecommendGuestButton } from "@/components/recommend-guest-modal";
 import { Footer } from "@/components/footer";
-import { AnimatedPuntIllustration } from "@/components/animated-punt-illustration";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
             Taking a Punt
           </h1>
           <p className="mt-3 italic text-sm text-gray-500">
-            Verb: To take a chance on something new.
+            verb · To take a chance on something new.
           </p>
           <p className="mt-3 text-sm font-medium tracking-wide text-gray-400">
             Launching Soon
@@ -50,13 +50,26 @@ export default function Home() {
           </div>
           {/* Mobile illustration */}
           <div className="mt-8 md:hidden">
-            <AnimatedPuntIllustration />
+            <Image
+              src="/punt2.png"
+              alt="Illustration of people punting on the river"
+              width={1400}
+              height={800}
+              className="h-auto w-full object-contain"
+            />
           </div>
         </div>
 
         {/* Desktop illustration */}
         <div className="absolute inset-y-0 right-0 hidden w-[65%] items-center md:flex">
-          <AnimatedPuntIllustration />
+          <Image
+            src="/punt2.png"
+            alt="Illustration of people punting on the river"
+            width={1400}
+            height={800}
+            className="h-auto w-full object-contain"
+            priority
+          />
         </div>
       </section>
      </div>
