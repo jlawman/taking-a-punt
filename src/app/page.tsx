@@ -20,9 +20,12 @@ export default function Home() {
             Home
           </a>
           <RecommendGuestButton />
-          <a href="https://www.foundersfunders.tech/" target="_blank" rel="noopener noreferrer" className="text-sm font-medium text-gray-500 hover:text-gray-900">
-            Founders &amp; Funders
-          </a>
+          <span className="text-sm text-gray-500">
+            Brought to you by{" "}
+            <a href="https://www.foundersfunders.tech/" target="_blank" rel="noopener noreferrer" className="font-medium text-gray-500 hover:text-gray-900">
+              Founders &amp; Funders
+            </a>
+          </span>
         </div>
       </nav>
 
@@ -37,16 +40,7 @@ export default function Home() {
             Season 1 Coming Soon
           </p>
           <p className="mt-6 text-base leading-relaxed text-gray-500">
-            A different kind of podcast. Brought to you by{" "}
-            <a
-              href="https://www.foundersfunders.tech/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium text-gray-900 hover:underline"
-            >
-              Founders &amp; Funders
-            </a>
-            .
+            A different kind of podcast.
           </p>
           <div className="mt-8 max-w-sm">
             <WaitlistForm />
@@ -54,7 +48,7 @@ export default function Home() {
           {/* Mobile illustration */}
           <div className="mt-8 md:hidden">
             <Image
-              src="/punt1.jpg"
+              src="/punt2.png"
               alt="Illustration of people punting on the river"
               width={1400}
               height={800}
@@ -66,7 +60,7 @@ export default function Home() {
         {/* Desktop illustration */}
         <div className="absolute inset-y-0 right-0 hidden w-[65%] items-center md:flex">
           <Image
-            src="/punt1.jpg"
+            src="/punt2.png"
             alt="Illustration of people punting on the river"
             width={1400}
             height={800}

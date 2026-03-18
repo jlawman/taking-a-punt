@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Taking A Punt",
-  description: "A podcast from Oxford interviewing extremely interesting people. By Founders & Funders.",
+  description: "A podcast from Oxford interviewing interesting people. By Founders & Funders.",
 };
 
 export default function RootLayout({

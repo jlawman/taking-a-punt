@@ -9,7 +9,7 @@ export function Footer() {
               Taking A Punt
             </h3>
             <p className="mt-4 text-sm text-gray-500">
-              A podcast from Oxford interviewing extremely interesting people.
+              A podcast from Oxford interviewing interesting people.
             </p>
           </div>
 
