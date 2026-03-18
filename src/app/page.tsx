@@ -9,7 +9,7 @@ export default function Home() {
       {/* Nav */}
       <nav className="flex items-center justify-between py-6">
         <span className="hidden text-sm font-bold tracking-widest uppercase text-gray-900 sm:inline">
-          Punts &amp; Pints
+          Taking A Punt
         </span>
         <div className="sm:hidden">
           <RecommendGuestButton />
@@ -30,9 +30,7 @@ export default function Home() {
         {/* Text */}
         <div className="relative z-10 w-full md:max-w-md md:flex-shrink-0">
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-gray-900 md:text-5xl">
-            Punts
-            <br />
-            &amp; Pints
+            Taking A Punt
           </h1>
           <p className="mt-3 text-sm font-medium uppercase tracking-widest text-gray-400">
             Season 1 Coming Soon

@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Punts and Pints",
+  title: "Taking A Punt",
   description: "A podcast from Oxford interviewing extremely interesting people. By Founders & Funders.",
 };
 
