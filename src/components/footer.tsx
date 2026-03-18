@@ -9,13 +9,13 @@ export function Footer() {
               Taking A Punt
             </h3>
             <p className="mt-4 text-sm text-gray-500">
-              A podcast from Oxford interviewing interesting people.
+              Interviewing interesting people.
             </p>
           </div>
 
           {/* Links */}
-          <div>
-            <h4 className="text-sm font-semibold text-gray-900">Links</h4>
+          <div className="md:text-right">
+            <h4 className="text-sm font-semibold text-gray-900">Explore</h4>
             <ul className="mt-4 space-y-2">
               <li>
                 <a
