@@ -2,6 +2,7 @@ import Image from "next/image";
 import { RecommendGuestButton } from "@/components/recommend-guest-modal";
 import { Footer } from "@/components/footer";
 import { HeroContent } from "@/components/hero-content";
+import { AnimatedWaterLines } from "@/components/animated-water-lines";
 
 export default function Home() {
   return (
@@ -57,6 +58,9 @@ export default function Home() {
             priority
           />
         </div>
+
+        {/* Animated water lines */}
+        <AnimatedWaterLines />
       </section>
      </div>
      <Footer />
