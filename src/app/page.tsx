@@ -48,7 +48,7 @@ export default function Home() {
           {/* Mobile illustration */}
           <div className="mt-8 md:hidden">
             <Image
-              src="/punt1.jpg"
+              src="/punt2.png"
               alt="Illustration of people punting on the river"
               width={1400}
               height={800}
@@ -60,7 +60,7 @@ export default function Home() {
         {/* Desktop illustration */}
         <div className="absolute inset-y-0 right-0 hidden w-[65%] items-center md:flex">
           <Image
-            src="/punt1.jpg"
+            src="/punt2.png"
             alt="Illustration of people punting on the river"
             width={1400}
             height={800}
