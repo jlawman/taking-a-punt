@@ -9,3 +9,11 @@ export const waitlist = pgTable(
   },
   (table) => [uniqueIndex("waitlist_email_idx").on(table.email)],
 );
+
+export const speakerRecommendations = pgTable("speaker_recommendations", {
+  id: serial("id").primaryKey(),
+  speakerName: text("speaker_name").notNull(),
+  reason: text("reason").notNull(),
+  submitterEmail: text("submitter_email").notNull(),
+  createdAt: timestamp("created_at", { withTimezone: true }).defaultNow().notNull(),
+});
