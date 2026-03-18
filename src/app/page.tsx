@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { WaitlistForm } from "@/components/waitlist-form";
 import { RecommendGuestButton } from "@/components/recommend-guest-modal";
 import { Footer } from "@/components/footer";
+import { HeroContent } from "@/components/hero-content";
 
 export default function Home() {
   return (
@@ -33,21 +33,7 @@ export default function Home() {
       <section className="relative flex min-h-[calc(100vh-80px)] items-center">
         {/* Text */}
         <div className="relative z-10 w-full md:max-w-md md:flex-shrink-0">
-          <h1 className="text-4xl font-bold leading-tight tracking-tight text-gray-900 md:text-5xl">
-            Taking a Punt
-          </h1>
-          <p className="mt-3 italic text-sm text-gray-500">
-            verb · To take a chance on something new.
-          </p>
-          <p className="mt-3 text-sm font-medium tracking-wide text-gray-400">
-            Launching Soon
-          </p>
-          <p className="mt-6 text-base leading-relaxed text-gray-500">
-            Stories from people who took a punt.
-          </p>
-          <div className="mt-8 max-w-sm">
-            <WaitlistForm />
-          </div>
+          <HeroContent />
           {/* Mobile illustration */}
           <div className="mt-8 md:hidden">
             <Image
