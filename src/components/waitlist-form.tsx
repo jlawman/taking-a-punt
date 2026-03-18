@@ -34,7 +34,7 @@ export function WaitlistForm() {
             <button
               type="submit"
               disabled={pending}
-              className="h-11 rounded-full border border-gray-900 bg-gray-900 px-6 text-sm font-medium text-white transition-colors hover:bg-white hover:text-gray-900 disabled:opacity-50"
+              className="h-11 whitespace-nowrap rounded-full border border-gray-900 bg-gray-900 px-6 text-sm font-medium text-white transition-colors hover:bg-white hover:text-gray-900 disabled:opacity-50"
             >
               {pending ? "Signing up…" : "Notify me"}
             </button>
