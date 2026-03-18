@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { WaitlistForm } from "@/components/waitlist-form";
 import { RecommendGuestButton } from "@/components/recommend-guest-modal";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -75,6 +76,7 @@ export default function Home() {
         </div>
       </section>
      </div>
+     <Footer />
     </div>
   );
 }
