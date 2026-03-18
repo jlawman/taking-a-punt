@@ -11,6 +11,9 @@ export function Footer() {
             <p className="mt-4 text-sm text-gray-500">
               Interviewing interesting people.
             </p>
+            <p className="mt-1 text-sm text-gray-500">
+              Sometimes on a punt.
+            </p>
           </div>
 
           {/* Links */}
